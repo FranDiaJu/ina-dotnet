@@ -1,7 +1,7 @@
 name: Compilación y Pruebas C#
 on: push
 jobs:
-  Compilación:
+  Compilacion:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v2
