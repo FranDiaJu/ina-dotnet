@@ -2,7 +2,7 @@ name: Compilación y Pruebas C#
 on: push
 jobs:
   Compilacion:
-    runs-on: ubunto-latest
+    runs-on: ubuntu-latest
     environment: PRUEBAS
     steps:
       - run: echo "El secreto Google es ${{ secrets.GOOGLE_TOKEN }}"
